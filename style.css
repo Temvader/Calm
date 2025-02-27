@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar{
+    width: 0;
+    background-color: transparent;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", serif;
+    color: #45525B;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+    font-family: "Spectral", serif;
+}
+p {
+    margin: 0;
+}
+a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    display: inline-block;
+    color: #45525B;
+}
+
+
+/* HEADER */
+.header {
+    padding: 1em 5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 50px;
+}
+
+.h_link {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    font-size: 20px;
+}
+
+
+/* CONTAINER */
+.container {
+    margin: 2em auto;
+    width: 1200px;
+    height: auto;
+}
+
+.main {
+    padding: 2em 0;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 30px;
+}
+
+.m_text {
+    font-weight: 400;
+    line-height: 1em;
+}
+
+.m_logo {
+    height: 50px;
+}
+
+
+/* TRAVEL */
+.travel {
+    padding: 8em 0em;
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+}
+
+.iceland {
+    height: 460px;
+}
+.alpinist {
+    height: 200px;
+}
+
+.img_txt {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.left {
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+}
+
+.i_text, .date, .c_text {
+    padding: 0em 1em;
+}
+
+.i_text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    line-height: 1.5em;
+}
+.i_top {
+    font-size: 20px;
+    letter-spacing: 5px;
+    color: black;
+}
+.i_center {
+    font-size: 40px;
+    font-weight: 400;
+}
+.i_bottom {
+    font-size: 20px;
+    font-weight: 450;
+    line-height: 1.7em;
+    letter-spacing: 1px;
+}
+.date, .c_date{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.c_text{
+    padding: 1em 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.c1_top {
+    font-size: 20px;
+    letter-spacing: 5px;
+    color: black;
+}
+.c1_center {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 1.2em;
+}
+#text_beet{
+    padding-left: 1em;
+}
